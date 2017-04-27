@@ -7,7 +7,7 @@ edit:
 	emacs main.hs
 
 clean:
-	\rm -f test
+	\rm -f test main.hi main.o
 
 test:
 	./test
